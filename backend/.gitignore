@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Pastas do backend
+.env
+.env.local
+.env.*.local
+
+# Sessões (se estiver usando express-session com store local)
+sessions/
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Build/Dist (caso use bundlers)
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Frontend (opcional)
+*.cache
